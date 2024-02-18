@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  border: 1px solid blacl;
+  background-color: rgb(24, 113, 24);
+  color:white;
+  font-weight: bold;
+  width: 690px;
+  margin: auto;
+  border-radius: 50px;
 }
 
 .App-logo {
@@ -7,6 +14,19 @@
   pointer-events: none;
 }
 
+h1{
+  color:white;
+  background-color: blueviolet;
+}
+button{
+  background-color: crimson;
+  color: white;
+  font-weight: bold;
+  margin: 5px;
+}
+ul li{
+  list-style: none;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
